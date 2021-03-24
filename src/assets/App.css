@@ -129,3 +129,29 @@ width: 100%;
 float: left;
 width: 240px;
 }
+
+
+#border {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 240px;
+  background: url(./img/images.jpg) right top /20% no-repeat,
+  url(./img/miqui.jpg) center / cover no-repeat;
+  ;
+}
+
+
+#degragados {
+  border: 25px;
+  width: 480px;
+  height: 480px;
+  background: linear-gradient(to bottom,#443,#ac1);
+}
+#sombras {
+  font-size: 75px;
+  
+  color: #fff;
+  text-shadow: 1px 1px 15px black,
+  0 0 14px red;
+}
