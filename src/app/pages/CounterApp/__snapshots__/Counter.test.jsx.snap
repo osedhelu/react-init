@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Haciendo pruebas en componentes test en component <PrimeraApp /> debe mostrar "Hola Soy Oscar" 1`] = `
+<Fragment>
+  <h1>
+    Hola Soy Oscar
+    !!!
+  </h1>
+  <p>
+    Soy un subtitulo
+  </p>
+</Fragment>
+`;

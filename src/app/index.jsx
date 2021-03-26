@@ -4,13 +4,12 @@ import PegasIndex from './pages'
 import SidebarContainer from './shared/sidebarContainer/sidebarContainer'
 
 let InitComponet = () =>(<>
-		
 		<HeaderComponet />
-
 		<div className="container mt-0">
+			
 			<div className="row justify-content-center h-100">
 				<SidebarContainer />
-				<PegasIndex />
+				<PegasIndex value={1}/>
 			</div>
 		</div>
 
