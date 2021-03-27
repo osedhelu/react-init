@@ -9,7 +9,7 @@ let InitComponet = () =>(<>
 			
 			<div className="row justify-content-center h-100">
 				<SidebarContainer />
-				<PegasIndex value={1}/>
+				<PegasIndex/>
 			</div>
 		</div>
 

@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 import CounterApp from "./CounterApp";
 import PrimeraApp from "./PrimeraApp";
 
-let PegasIndex = ({ value }) => {
+let PegasIndex = ({ value = 10 }) => {
   return (
     <>
       <div className="col-10 pt-3">
         <div className="card">
           <div className="card-body">
-			  <CounterApp value={100}></CounterApp>
+			  <CounterApp value={value}/>
         <PrimeraApp saludos="aa"/>
 		  </div>
         </div>
